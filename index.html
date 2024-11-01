@@ -1,118 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-</head>
-<style>
-    body {
-        font-family: 'Poppins', sans-serif;
-    }
-</style>
-<body>
-    <header class="header">
-        <div>
-            <a href="" class="logo">BAIHAQI.</a>
-        </div>
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-        </div>          
-    </header>
-
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi i'm MUHAMMAD BAIHAQI SIREGAR</h1>
-            <h3>informatics engineering</h3>
-            <p>hi everyone, Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, inventore. Adipisci voluptas iusto accusantium sed repellendus aspernatur eius qui excepturi dolorem assumenda! Libero, maxime officia! Distinctio quisquam dolores ea nemo!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit, deleniti cupiditate doloribus atque ratione placeat ea quidem illo officia. Eligendi magni libero reprehenderit, earum quae asperiores corrupti enim adipisci.</p>
-            <div class="btn-box">
-                <a href="https://wa.me/6281366299487">Contact Me</a>
-                <a href="https://www.instagram.com/direct/inbox/">Let's Talk</a>
-            </div>
-
-            <div class="home-sci">
-                <a href="https://www.facebook.com/muhammad.siregar.1675275"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/muhammadbaihaqiii__/"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.tiktok.com/@adaaqua64"><i class='bx bxl-tiktok' ></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!--about -->
-    <section class="about">
-        <div class="container">
-            <h3>ABOUT</h3>
-            <p>Hi friends,let me introduce myself, Muhammad Baihaqi Siregar, you can be called Bai, I come from Medan, and now I'm studying at the <strong>University of Logistics and International Business</strong>, my major is informatics engineering, and I hope I can do it well and smoothly so I can become a good person success, AMINN</p>
-            </div>
-    </section>
-
-    <!-- service -->
-    <section class="service">
-        <div class="container">
-            <h3>SERVICE</h3>
-            <div class="service-content">
-                <div class="box-service">
-                    <div>
-                        <img src="gmail.png" alt="" class="img-service">
-                    </div>
-                    <div class="font-service">
-                        Gmail
-                    </div>
-                    <div>
-                        baihaqisiregar09@gmail.com
-                    </div>
-                </div>
-                
-                <div class="box-service">
-                    <div>
-                        <img src="delete-contact.png" alt="" class="img-service">
-                    </div>
-                    <div class="font-service">
-                        No HP
-                    </div>
-                    <div>
-                        08136629487
-                    </div>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Profile</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    .BAIHAQI
+                </a>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#service">Service</a></li>
+                </ul>
+                <div class="myclick">
+                    &#9776;
                 </div>
             </div>
-        </div>
-    </section>
+        </nav>
 
-    <!-- copyright -->
-    <section class="footer">
-        <div class="copy">
-            <p align="center">&copy;2024,Muhammad Baihaqi Siregar</p>
-        </div>
-    </section>
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1 class="welcome">Hi i'm MUHAMMAD BAIHAQI SIREGAR</h1>
+                <h3 class="info">informatics engineering</h3>
+                <p class="description">hi everyone,i'm student at a Logistic and International Business University
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, inventore. Adipisci voluptas iusto accusantium sed repellendus aspernatur eius qui excepturi dolorem assumenda! Libero, maxime officia! Distinctio quisquam dolores ea nemo!
+                </p>
+                <div class="btn-box">
+                    <a href="https://wa.me/6281366299487">Contact Me</a>
+                    <a href="https://www.instagram.com/direct/inbox/">Let's Talk</a>
+                </div>
+    
+                <div class="home-sci">
+                    <a href="https://www.facebook.com/muhammad.siregar.1675275"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/muhammadbaihaqiii__/"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.tiktok.com/@adaaqua64"><i class='bx bxl-tiktok' ></i></a>
+                </div>
+            </div>
+        </section>
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
+        <!--about -->
+        <section class="about" id="about">
+            <div>
+                <div class="title">
+                    <h3>ABOUT ME</h3>
+                </div>
+                <div>
+                    <p>Hi friends, let me introduce myself, Muhammad Baihaqi Siregar, you can be called Bai, I come from Medan, and now I'm studying at the <strong>University of Logistics and International Business</strong>, my major is informatics engineering, and I hope I can do it well and smoothly so I can become a good person success, AMINN</p>
+                </div>
+            </div>
+        </section>
+        
+         <!-- service -->
+        <section class="service" id="service">
+            <div class="title">
+                <h3>SERVICE</h3>
+            </div>
+            <div class="parent-container">
+                <div class="child-container">
+                        <div>
+                            <img src="assets/content/gmail.png" alt="" class="img-service">
+                        </div>
+                        <div class="font-service">
+                            Gmail
+                        </div>
+                        <div class="font-small">
+                            baihaqisiregar09@gmail.com
+                        </div>
+                </div>
+                <div class="child-container">
+                        <div>
+                            <img src="assets/content/delete-contact.png" alt="" class="img-service">
+                        </div>
+                        <div class="font-service">
+                            Phone Number
+                        </div>
+                        <div class="font-small">
+                            08136629487
+                        </div>
+                </div>
+            </div>              
+            <!-- <div class="container">
+                <h3>SERVICE</h3>
+                <div class="service-content">
+                    <div class="box-service">
+                        <div>
+                            <img src="gmail.png" alt="" class="img-service">
+                        </div>
+                        <div class="font-service">
+                            Gmail
+                        </div>
+                        <div>
+                            baihaqisiregar09@gmail.com
+                        </div>
+                    </div>
+                    
+                    <div class="box-service">
+                        <div>
+                            <img src="delete-contact.png" alt="" class="img-service">
+                        </div>
+                        <div class="font-service">
+                            No HP
+                        </div>
+                        <div>
+                            08136629487
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        
+         <!-- copyright -->
+        <section class="footer">
+                <font align="center">&copy;2024,Muhammad Baihaqi Siregar</font>
+        </section>
+
+        <script type="text/javascript">
+            const myclick = document.querySelector('.myclick');
+            const menu = document.querySelector('.menu');
+            myclick.addEventListener('click', () => { menu.classList.toggle('active'); });
         </script>
-
-</body>
+    </body>
 </html>
